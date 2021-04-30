@@ -1,0 +1,355 @@
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        margin-bottom: 0.5px;
+    }
+    .conteiner{
+        margin:0 auto;
+        width: 62.5%;
+        height: 100%;
+        display: flex;
+        /* align-items: center; */
+    }
+    .conteiner_header{
+        height: 100%;
+        display: flex;
+        width: 100%;
+    }
+    .links_header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    .links_header a{
+        color: #ffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    .img_bunner{
+        position: relative;
+        height: 100%;
+        
+    }
+    .bunner{
+        width: 100%;
+    }
+    .inscrição{
+        position: absolute;
+        width: 464px;
+        height: 254px;
+        left: 1116px;
+        top: 154px;
+        color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inscrição h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 106px;
+        color: #FFFFFF;
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom: 4%;
+
+    }
+    .inscrição h2{
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 37px;
+        color: #FFFFFF;
+        margin-bottom: 9%;
+    }
+    .inscrição span{
+        background-color: #C0A356;
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 37px;
+    /* identical to box height */
+        text-align: center;
+        width: 300px;
+        height: 56px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 17px;
+        color: #08090B;
+        text-transform: uppercase;
+
+    }
+    .logos{
+        width: 100%;
+        height: 95px;
+        background-color: black;
+        margin-top: 0.01%;
+    }
+    .img_conteiner{
+        display: flex;
+    }
+    .como_participar{
+        height: 450px;
+    }
+    .como_participar{
+        background-image: url(../img/img_fundo_participar.png);
+        display: flex;
+        align-items: center;
+        margin-top: 0.12%;    
+    }
+
+    .retangulo{
+        height: 368.06px;
+        background: #000000;
+        transform: skewY(-2deg);
+        display: flex;
+        justify-content: space-between
+    }
+    .retangulo h2{
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 55px;
+    color: #FFFFFF;
+        transform: skewY(2deg);
+    }
+    .retangulo p{
+        color: #FFFFFF;
+        transform: skewY(2deg);
+        font-size: 18px;
+        margin-bottom: 0.5%;
+        margin-right: 1%;
+    }
+    .em_breve{
+        background-color: black;
+        width: 100%;
+        height: 106px;
+        margin-top: 0.09%;
+    }
+    .noticias{
+        background-color:  #1E1C21;
+        width: 100%;
+        height: 820px;
+        margin-top: 0.07%;
+        padding-top: 2%;
+        
+    } 
+    .conteiner_noticias{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .conteiner_noticias h2{
+        margin-left: 5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 32px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .article_div{
+        display: flex;
+    flex-wrap: wrap; 
+    }
+    .conteiner_titulo{
+        width: 100%;
+    }
+    .titulo_noti{
+        color: #FFFFFF;
+        font-family:Titillium Web ;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4%;
+        
+    }
+    article{
+        width: 22%;
+        height: 330px;
+        background-color: #303030;
+        margin: 48px;
+        margin-top: 10px;
+        background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+        box-shadow: 1px 1px 20px 4px #000000;
+        
+    }
+    .img_noti{
+        background-image: url(..//img/player\ 2.png);
+        width: 100%;
+        height: 145px;
+    }
+    article h3{
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-family:Titillium Web ;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    article p{
+        color: #FFFFFF;
+        font-family:Titillium Web ;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .proximos_jogos{
+        
+        width: 236px;
+        height: 731px; 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 84%;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .degrade{
+    height: 100%;
+    background-color: black;
+    width: 236px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #000000 0%, #525151 47.71%, #000000 100%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    margin-top: 4%;
+    }
+    .Jogos{
+        display: flex;
+        align-items: center;
+    }
+    .data{
+        margin-top: 12px;
+    }
+    .data span{
+        justify-content: center;
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 22px;
+        
+    }
+    .footer_s{
+        background-color: black;
+        width: 100%;
+        height: 310px;
+        margin-top: 0.25%;
+    }
+    .conteiner_footer{
+        
+        margin:0 auto;
+        width: 62.5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    
+    .links_u h4{
+    color: #FFFFFF;    
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    }
+
+    li{
+        color: #ffffff;
+        height: 30px;
+    }
+    li a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .pd{
+        width: 100%;
+        height: 100%;
+    }
+    .links_pg h4{
+        font-family: Titillium Web;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .clan_ctr{
+        width: 345px;
+        height: 39%;
+    }
+    .clan_ctr span{
+        color: #FFFFFF;
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .siga{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .siga span{
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .inp{
+        display: flex;
+        justify-content: center;
+        margin-top: 1pc;
+    }
+    .inp input{
+        width: 195px;
+    }
+    .inp button{
+        width: 156px;
+        background: #001F70;
+        height: 33px;
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+
+    }
+
+
+
